@@ -8,6 +8,7 @@
 
 #import "OSZHomeViewController.h"
 #import "Person.h"
+#import "Person+man.h"
 
 @interface OSZHomeViewController ()
 
@@ -29,7 +30,8 @@
                           @"name":@"张三",
                           @"age":@22,
                           @"height":@170,
-                          @"weight":@60
+                          @"weight":@60,
+                          @"something":@"关键字练习"
                           };
     //    正常
     //    Person *p = [Person OSZModelWithDicNormal:dic];
@@ -41,6 +43,8 @@
         Person *p = [Person OSZModelWithDicRuntime:dic];
     
     NSLog(@"%@,%@,%@",p.name,p.age,p.height);
+    NSLog(@"%@",p.something);
+    NSLog(@"%@",p.weight);
 }
 
 - (void)didReceiveMemoryWarning {

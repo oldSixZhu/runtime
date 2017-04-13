@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		04A5A05A1E9E1D0500F062F5 /* NSObject+modelTransform.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A5A0591E9E1D0500F062F5 /* NSObject+modelTransform.m */; };
+		04A5A05F1E9E2F8100F062F5 /* Person+man.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A5A05E1E9E2F8100F062F5 /* Person+man.m */; };
 		04C354C51E9E16CF008BEE02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04C354C41E9E16CF008BEE02 /* Assets.xcassets */; };
 		04C354D31E9E16D0008BEE02 /* RuntimeCollectionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C354D21E9E16D0008BEE02 /* RuntimeCollectionTests.m */; };
 		04C354DE1E9E16D0008BEE02 /* RuntimeCollectionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C354DD1E9E16D0008BEE02 /* RuntimeCollectionUITests.m */; };
@@ -42,6 +43,8 @@
 		04A5A0581E9E1D0500F062F5 /* NSObject+modelTransform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+modelTransform.h"; sourceTree = "<group>"; };
 		04A5A0591E9E1D0500F062F5 /* NSObject+modelTransform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+modelTransform.m"; sourceTree = "<group>"; };
 		04A5A05C1E9E1E3900F062F5 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		04A5A05D1E9E2F8100F062F5 /* Person+man.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Person+man.h"; sourceTree = "<group>"; };
+		04A5A05E1E9E2F8100F062F5 /* Person+man.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Person+man.m"; sourceTree = "<group>"; };
 		04C354B21E9E16CF008BEE02 /* RuntimeCollection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RuntimeCollection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04C354C41E9E16CF008BEE02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04C354C91E9E16CF008BEE02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -133,8 +136,8 @@
 				04C354EB1E9E1995008BEE02 /* AppEntry */,
 				04C354F01E9E1995008BEE02 /* Feature */,
 				04C354F91E9E1995008BEE02 /* Utility */,
-				04A5A05B1E9E1E0C00F062F5 /* Resource */,
 				04C354EF1E9E1995008BEE02 /* Config */,
+				04A5A05B1E9E1E0C00F062F5 /* Resource */,
 				04C354B51E9E16CF008BEE02 /* Supporting Files */,
 			);
 			path = RuntimeCollection;
@@ -218,6 +221,8 @@
 			children = (
 				04C355041E9E1B74008BEE02 /* Person.h */,
 				04C355051E9E1B74008BEE02 /* Person.m */,
+				04A5A05D1E9E2F8100F062F5 /* Person+man.h */,
+				04A5A05E1E9E2F8100F062F5 /* Person+man.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -595,6 +600,7 @@
 				04C355001E9E1995008BEE02 /* RuntimeCollection.xcdatamodeld in Sources */,
 				04A5A05A1E9E1D0500F062F5 /* NSObject+modelTransform.m in Sources */,
 				04C355061E9E1B74008BEE02 /* Person.m in Sources */,
+				04A5A05F1E9E2F8100F062F5 /* Person+man.m in Sources */,
 				04C355031E9E1AFA008BEE02 /* OSZHomeViewController.m in Sources */,
 				04C354FE1E9E1995008BEE02 /* AppDelegate.m in Sources */,
 			);

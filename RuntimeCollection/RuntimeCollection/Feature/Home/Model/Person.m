@@ -11,6 +11,19 @@
 
 @implementation Person
 
+@dynamic  something;
+
+-(NSString *)something
+{
+    return _something;
+}
+-(void)setSomething:(NSString *)something
+{
+    _something = something;
+
+}
+
+
 //正常字典转模型
 +(instancetype)OSZModelWithDicNormal:(NSDictionary *)dic
 {

@@ -10,10 +10,14 @@
 #import "NSObject+modelTransform.h"
 
 @interface Person : NSObject
+{
+    NSString *_something;
+}
 
 @property (nonatomic, copy) NSString *name;
 @property (nonatomic, strong) NSNumber *age;
 @property (nonatomic, strong) NSNumber *height;
+@property (nonatomic, copy) NSString *something;
 
 //正常字典转模型
 +(instancetype)OSZModelWithDicNormal:(NSDictionary *)dic;
